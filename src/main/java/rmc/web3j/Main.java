@@ -33,11 +33,16 @@ import java.math.BigInteger;
 //        address:RMC5b99199369c19b90a79086df016f504cdf334de4  privateKey:284d5ba5cc1c73dbcd8dc7c5d8c40232acac26b242a58dbd5667282fa9342d37
 
 public class Main {
+//
+//    static String fromAddress = "RMC0108aE381335Bba1F5a3293D501947D6174de367";
+//    static  String privateKeyStr = "6ab0638768979e4a551a2c81b90c943cb12e07819bee721be74aaf481919bb2b";
 
-    static String fromAddress = "RMC0108aE381335Bba1F5a3293D501947D6174de367";
-    static  String privateKeyStr = "6ab0638768979e4a551a2c81b90c943cb12e07819bee721be74aaf481919bb2b";
-    static String toAddress = "RMC5b99199369c19b90a79086df016f504cdf334de4";
-    static String outBalance = "5268";//eth
+    static String fromAddress = "RMC5b99199369c19b90a79086df016f504cdf334de4";
+    static String privateKeyStr = "284d5ba5cc1c73dbcd8dc7c5d8c40232acac26b242a58dbd5667282fa9342d37";
+
+
+    static String toAddress = "RMCa1c0b059da0715e9e8b0d43849d096a71f7541ca";
+    static String outBalance = "2564";//eth
     static int chainid = 2021;
 
     public static void main(String[] args) throws IOException {
